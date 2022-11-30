@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    text-align: center;
+    background-color: whitesmoke;
+    text-decoration: none;
+}
+header a{
+    padding: 5px;
+}
+header img{
+    width: 80px;
+}
+header hr{
+    width: 20vw;
+    height: 1px;
+    background-color: darkblue;
+    text-align: center;
+    margin: 5px;
+    margin-left: 40vw;
+}
+picture img{
+    width: 40vw;
+    margin: auto;
+    margin-left: 30vw;
+    margin-right: 30vw;
+}
+div#jornal {
+    background-color: darkgrey;
+    padding: 1px;
+    padding-top: 4px;
+}
+div#noticias {
+    width: 69vw;
+    height: 250px;
+    background-color: aqua;
+    display: inline-block;
+}
+div#categoria {
+    width: 29vw;
+    height: 250px;
+    background-color: blueviolet;
+    display: inline-block;
+}
