@@ -33,16 +33,32 @@ div#jornal {
     background-color: darkgrey;
     padding: 1px;
     padding-top: 4px;
+    display: block;
+    width: 100vw;
 }
 div#noticias {
-    width: 69vw;
+    padding:20px;
+    width: 68vw;
     height: 250px;
     background-color: aqua;
     display: inline-block;
 }
 div#categoria {
-    width: 29vw;
+    padding: 20px;
+    width: 26vw;
     height: 250px;
     background-color: blueviolet;
     display: inline-block;
+    list-style-position: inside;
+}
+div#noticias div#img{
+    background-color: aliceblue;
+    display: inline-block;
+    width: 25vw;
+    height: 199px;
+}
+div#noticias div#txtmateria{
+    background-color: bisque;
+    display: inline-block;
+    width: 42vw;
 }
