@@ -29,7 +29,7 @@ picture img{
     margin-left: 30vw;
     margin-right: 30vw;
 }
-div#jornal {
+section#jornal {
     background-color: darkgrey;
     padding: 1px;
     padding-top: 4px;
@@ -41,24 +41,26 @@ div#noticias {
     width: 68vw;
     height: 250px;
     background-color: aqua;
-    display: inline-block;
+    display: block;
 }
 div#categoria {
     padding: 20px;
-    width: 26vw;
+    width: 15vw;
     height: 250px;
     background-color: blueviolet;
-    display: inline-block;
+    display: block;
     list-style-position: inside;
+    
+
 }
 div#noticias div#img{
     background-color: aliceblue;
-    display: inline-block;
+    display: block;
     width: 25vw;
     height: 199px;
 }
 div#noticias div#txtmateria{
     background-color: bisque;
-    display: inline-block;
-    width: 42vw;
+    display: block;
+    width: 41vw;
 }
